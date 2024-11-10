@@ -3,8 +3,16 @@
 
 body {
   font-family: "Poppins", serif;
+  background-color: red;
 }
 
 .box-area {
   width: 930px;
+}
+
+// max width 768px
+@media only screen and (max-width: 768px) {
+  #right-box .header-wrapper {
+    text-align: center;
+  }
 }
