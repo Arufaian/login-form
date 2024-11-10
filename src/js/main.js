@@ -1,11 +1,6 @@
 import "../scss/styles.scss";
 import * as bootstrap from "bootstrap";
 
-// let width = screen.width;
-
-// if (width < 768) {
-// }
-
 const leftBox = document.querySelector("#left-box");
 
 window.addEventListener("resize", () => {
